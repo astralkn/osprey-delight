@@ -2,13 +2,14 @@ title = "Osprey Delight Demo"
 baseURL = "https://example.com"
 languageCode = "en-US"
 theme = "osprey-delight"
+themesDir = "../.."
 tags = ["personal", "homepage", "portfolio"]
 # canonifyURLS = true
 # googleAnalytics = ""
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 enableEmoji = true
 pygmentsUseClasses = true
-
+ignoreErrors = ["error-remote-getjson"]
 ## Generic theme parameters:
 [Params]
   author = "kdevo"
